@@ -1,0 +1,146 @@
+@charset "utf-8"
+@font-face {
+    font-family: "contabilidade";
+    src: url("Fonts/K2D-Regular.ttf") format("truetype");
+}
+*{margin: 0;}
+
+header{
+    display: flex;
+    background-color: black;
+    align-items: center;   
+    box-shadow: 3px 3px 5px #8c8c8cbe;
+    padding: 5px;
+    font-size: 22px;
+
+}    
+header nav{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+nav a:hover{
+    background-color:#8c8c8c6e;   
+    color:#F2F2F0;
+    font-weight: bold;
+    transition-duration: 0.5s;
+    border-radius: 5px;
+    padding: 8px;
+    
+    
+}
+
+header nav a{
+        text-decoration: none;
+        color: #D9CEAD;
+        font-family: "contabilidade", Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        padding: 30px;
+         
+          
+                
+    }
+    @media only screen and (max-width: 550px)
+    {header{
+           display: block;
+           margin: 0px;
+    
+        }
+        header nav{
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+        header nav a{
+            font-size: 18px;
+            padding: 10px;
+           
+        }   
+        header picture img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
+          
+        }
+    }
+   
+
+body{
+    
+    background-image:linear-gradient(to left,#ddca90,#F2EDDC,#F2F2F0,#F2EDDC,#ddca90);
+}
+main{
+    width: 1200px;
+    margin: auto;
+    background-color: #F2EDDC;
+   
+    
+}
+span{
+    display: flex;
+    align-items: center;
+}
+main span h1{
+    font-size: 30px;
+    color: #59574D;
+    font-family: "contabilidade", Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+main span h1 p{
+    font-size: 20px;
+    font-family: "contabilidade", Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    padding: 40px;
+    
+
+} 
+main span img{
+    display: inline;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px  #8c8c8cbe;
+    margin: 10px;
+}
+h2{
+    font-size: 20px;
+    font-family: "contabilidade", Arial, Helvetica, sans-serif;
+   
+
+}
+h3{
+    font-size: 27px;
+    font-family: "contabilidade", Arial, Helvetica, sans-serif;
+    text-align: center;    
+    color: black;
+    
+}
+h3 a{
+     color: black;
+     text-decoration: none;
+
+}
+h3 a:hover{
+    background-color: #D9CEAD;
+    font-weight: bold;
+    font-size: 110%;
+    position: static;
+}
+
+footer span a{
+    display: inline-block ;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+    
+footer p{
+    font-family: "contabilidade", Arial, Helvetica, sans-serif;
+    text-align: center;    
+    color: black;
+    font-size:20px;
+    
+}

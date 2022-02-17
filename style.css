@@ -12,9 +12,7 @@
     --cor5:#c2beaa;
     --corfudo:rgb(241, 241, 241);
     --fontesimples:'K2D', sans-serif;
-    --fontebolder:'Passion One', cursive;
-    
-    
+    --fontebolder:'Passion One', cursive;  
 }
 header{
     display: flex;
@@ -23,11 +21,8 @@ header{
     padding: 8px;
     position: fixed;
     width: 100%;
-    height: 50px;   
-               
- } 
-  
-
+    height: 50px;               
+ }
 #menu a{
     color: var(--cor2);
     font-size: 20px;
@@ -35,27 +30,20 @@ header{
     padding: 8px;
     margin: 10px;
     text-decoration: none;
-    font-family:var(--fontesimples)
-  
-    
-         
+    font-family:var(--fontesimples);         
 }
 #menu a:hover{
     background-color: var(--cor2);
     color: var(--cor3);
-    border-radius: 6px;
-    
+    border-radius: 6px;   
 }
 #social{
     margin-left: 30%;
-    filter: invert(1);
-             
+    filter: invert(1);            
 }
 #social a{
     padding: 15px;
-
 }
-
 #logo{
     font-size: 40px;
     font-family:var(--fontebolder);    
@@ -68,18 +56,13 @@ header{
     color: rgba(0, 0, 0, 0.918);
     text-shadow: 5px 5px 6px var(--cor5);
     letter-spacing: -1px;
-    
-    
-
 }
 #logo p{
     font-size: 30px;
     text-align: center;
     font-weight: 800;
     font-family: var(--fontesimples);
-    text-shadow: 5px 5px 6px var(--cor5);
-    
-    
+    text-shadow: 5px 5px 6px var(--cor5);   
 }
 #logo h1{
     align-items: center;
@@ -87,11 +70,8 @@ header{
 }
 #logo img{
     border-radius: 3px;
-    box-shadow: 1px 1px 6px var(--cor5);
-    
+    box-shadow: 1px 1px 6px var(--cor5);    
 }
-
-
 #img_top{
    background-image: url(Imagens/img_top.jpg);
    background-attachment:fixed;
@@ -100,8 +80,7 @@ header{
    background-repeat: no-repeat;
    height: 250px;
    box-shadow: 3px 3px 5px var(--cor5);
- }
-    
+ }    
   #titulo{
     font-family: var(--fontesimples);
     font-size: 15px;
@@ -117,8 +96,8 @@ header{
     margin-top: 15px;
     margin-bottom: 15px;
     box-shadow: 3px 3px 5px var(--cor5);
-  }
-  img#logo{
+}
+img#logo{
     position: relative;
     margin: 10px;
     background-color: red;
@@ -126,27 +105,23 @@ header{
 main{
     display: flex;
 }
- 
 #empresa{
     display: inline-flex;
     background-image: url(Imagens/fundo_empresa.jpg);
     background-size: cover;
     background-attachment: fixed;
     padding: 40px;
-    box-shadow: 3px 3px 5px var(--cor5);
-       
+    box-shadow: 3px 3px 5px var(--cor5);      
 }
 #desc_empresa h1{
     font-size: 35px;
     padding-bottom: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 #desc_empresa p{
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
-
 }
 #img_contador img{
     border-radius: 5px;
@@ -166,7 +141,6 @@ main{
     font-weight: bolder;
     font-size: 18px;
   }
-
 #img_socia{
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--corfudo);
@@ -176,7 +150,6 @@ main{
     line-height: 2em;
     font-weight: bolder;
     font-size: 18px;
-
 }
 #desc_empresa{
     padding: 40px;
@@ -187,19 +160,9 @@ main{
     border-radius: 5px 0px 0px 5px;
 }
    
-
-footer span a{
-    display: inline-block ;
-    padding: 15px;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-    
 footer p{
-    font-family: "contabilidade", Arial, Helvetica, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     text-align: center;    
     color: black;
-    font-size:20px;
-    
+    font-size:20px;   
 }

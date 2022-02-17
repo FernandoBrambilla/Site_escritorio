@@ -1,130 +1,192 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,800;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@900&display=swap');
+
 *{margin: 0;}
 
 :root{
-    --cor1:#F2EDDC;
-    --cor2:#3a3933;
-    --cor3:#8c8c8cbe;
+    --cor1:#D4CDAA;
+    --cor2:#E9E9E9;
+    --cor3:#2b2b2a;
+    --cor4:#807F78;
+    --cor5:#c2beaa;
+    --corfudo:rgb(241, 241, 241);
+    --fontesimples:'K2D', sans-serif;
+    --fontebolder:'Passion One', cursive;
     
     
 }
 header{
     display: flex;
-    background-color: black;
-    box-shadow: 3px 3px 5px #8c8c8cbe;
+    background-color: rgba(0, 0, 0, 0.815);
     align-items: center;
     padding: 8px;
-            
- }    
-header nav a{
-    color: var(--cor1);
+    position: fixed;
+    width: 100%;
+    height: 50px;   
+               
+ } 
+  
+
+#menu a{
+    color: var(--cor2);
     font-size: 20px;
+    font-weight: 800;
     padding: 8px;
+    margin: 10px;
     text-decoration: none;
-    margin:auto;
-    font-family: Arial, Helvetica, sans-serif;
-        
+    font-family:var(--fontesimples)
+  
+    
+         
 }
-header nav a:hover{
-    background-color: #ac9b8665;
+#menu a:hover{
+    background-color: var(--cor2);
+    color: var(--cor3);
     border-radius: 6px;
+    
 }
+#social{
+    margin-left: 30%;
+    filter: invert(1);
+             
+}
+#social a{
+    padding: 15px;
+
+}
+
+#logo{
+    font-size: 40px;
+    font-family:var(--fontebolder);    
+    width: auto;    
+    float: right;
+    padding-right: 30px;
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    color: rgba(0, 0, 0, 0.918);
+    text-shadow: 5px 5px 6px var(--cor5);
+    letter-spacing: -1px;
+    
+    
+
+}
+#logo p{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 800;
+    font-family: var(--fontesimples);
+    text-shadow: 5px 5px 6px var(--cor5);
+    
+    
+}
+#logo h1{
+    align-items: center;
+    padding-left: 10px;
+}
+#logo img{
+    border-radius: 3px;
+    box-shadow: 1px 1px 6px var(--cor5);
+    
+}
+
+
 #img_top{
-   background-image: url(Imagens/imagem_top.jpg);
-   background-size: 100%;
-   background-attachment: fixed;
-   background-position: center bottom;
-   background-repeat: no-repeat;
+   background-image: url(Imagens/img_top.jpg);
+   background-attachment:fixed;
    background-size: cover;
-   width: 100%;
-   height: 280px;
-   margin: 0;
-   
-      
-   
-}
+   background-position: centerbottom;
+   background-repeat: no-repeat;
+   height: 250px;
+   box-shadow: 3px 3px 5px var(--cor5);
+ }
     
   #titulo{
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 15px;
-      margin: auto;
-      width: 60%;
-      height: 300px;
-      padding: 30px 15px 15px 15px;
-      color: var(--cor2);
-      text-align: center;
-      
-     
-    }  
-#logo{
-    background-image: url(Imagens/banner_topog.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-    
-  
-    width: 450px;
-    
-    border: 0pt;
-  
-    
-}
- #subtitulo{
-    font-family: Arial, Helvetica, sans-serif;
-    width: 600px;
-    padding: 10px;
-    color: black;
-    font-size: 16px;
-    text-align: center;
-    background-color:
-
+    font-family: var(--fontesimples);
+    font-size: 15px;
+    line-height: 3em;
+    width: 50%;
+    padding: 10px 20px 20px 10px;
+    color: var(--cor3);
+    text-align: justify;
+    background-color: var(--corfudo);
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: 3px 3px 5px var(--cor5);
+  }
+  img#logo{
+    position: relative;
+    margin: 10px;
+    background-color: red;
 }
 main{
     display: flex;
 }
+ 
 #empresa{
-    width: 50%;
-    
-    
-
-    
-        
+    display: inline-flex;
+    background-image: url(Imagens/fundo_empresa.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 40px;
+    box-shadow: 3px 3px 5px var(--cor5);
+       
 }
-p#descr_cont{
-    padding: 10px;
+#desc_empresa h1{
+    font-size: 35px;
+    padding-bottom: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    color: var(--cor2);
-    background-color: var(--cor1);
-    margin: auto;
+}
 
+#desc_empresa p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+
+}
+#img_contador img{
     border-radius: 5px;
-    box-shadow: 3px 0px 3px 2px var(--cor1);
+    box-shadow: 3px 3px 5px var(--cor5);
+}
+#img_socia img{
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px var(--cor5);
+}
+#img_contador{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--corfudo);
+    padding: 20px;
+    color: var(--cor3);
+    text-align: center;
+    line-height: 2em;
+    font-weight: bolder;
+    font-size: 18px;
+  }
 
+#img_socia{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--corfudo);
+    padding: 20px;
+    color: var(--cor3);
+    text-align: center;
+    line-height: 2em;
+    font-weight: bolder;
+    font-size: 18px;
+
+}
+#desc_empresa{
+    padding: 40px;
+    background-color: var(--corfudo);
+    color: var(--cor3);
+    text-align: justify;
+    line-height: 2em;
+    border-radius: 5px 0px 0px 5px;
+}
    
-    
-    
-}
-img#img_cont{
-    border: 0pt none;
-    float: left;
-    padding: 10px 10px 0px 10px;
-    
-
-
-
-}
-#img_cont.descr_cont{
-    
-    border: 0pt none;
-    float: left;
-    padding-right: 10px;
-    padding-bottom: 5px;
-    
-        
-   
-    
-    
-}
 
 footer span a{
     display: inline-block ;
